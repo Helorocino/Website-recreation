@@ -1,33 +1,194 @@
 <!DOCTYPE html>
+
 <html>
+  <head>
+    <meta charset="UTF-8" />
 
-    <head>
+    <meta
+      name="description"
+      content="This website is an assigment for Adi."
+    />
+
+    <title>Adi Akmal Faris</title>
+
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/1402646080567713792/A4-OX1TW_400x400.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 50%;
+       background-color: rgb(0,209,178);
+       color: white;
+       text-align: center;
+    }
 
 
+    </style>
+  </head>
 
-        <style>
-        
-        
-
-        </style>
-
-    </head>
-
-    <body>
-
-        <center>
-        <section class="hero is-small is-primary">
-            <div class="hero-body">
-              <p class="title">
-                Adi Akmal Faris
-              </p>
-              <p class="subtitle">
-                Small subtitle
-              </p>
-            </div>
-        </section>
-        </center>
-        
-    </body>
+  <body style="background-color: #a3ebff" id="center">
     
+    <!-- Ni section paling atas -->
+    <center>
+    <section class="hero is-small is-info">
+      <div class="hero-body">
+        <p class="title">ADI AKMAL FARIS</p>
+
+        <hr>
+
+        <p class="subtitle">by Adi Akmal Faris</p>
+      </div>
+    </section>
+    </center>
+    <div class="block"></div>
+    <br>
+    <br>
+    <h1 class="title" style="padding: 10px;">
+      Jenis Yang Terkenal di Malaysia 
+    </h1>
+
+    <div class="box">
+    <center>
+
+      <div class="columns">
+
+        <div class="column">
+
+         <p><span class="tag is-large"><a href="./oyen.html">Kucing Oren</a>
+         </span></p>
+        </div>
+
+        <div class="column">
+
+         <p><span class="tag is-large"><a href="./mainecoon.html">Maine Coon</a>
+         </span></p>
+
+        </div>
+
+        <div class="column">
+
+          <p><span class="tag is-large"><a href="./siamese.html">Kucing Siam</a>
+          </span></p>
+ 
+         </div>
+
+         <br>
+
+         
+
+      </div>
+
+    </center>
+
+    <hr>
+
+    <center>
+
+      <div class="columns">
+
+        <div class="column">
+          <a href="./oyen.html"><img src="Oyen.jpg"></a>
+        </div>
+
+        <div class="column">
+          <a href="./mainecoon.html"><img src="mainecoon.jpg"></a>
+        </div>
+
+        <div class="column">
+          <a href="./siamese.html"><img src="siamese.jpg"></a>
+        </div>
+
+      </div>
+
+      <br>
+      <!--dropdown menu-->
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+            <span>Menu Theme</span>
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+          <div class="dropdown-content">
+            <a href="Main Menu.html" class="dropdown-item is-active">
+              Active Cyan Theme
+            </a>
+            <a href="Light Menu.html" class="dropdown-item">
+              Light Theme
+            </a>
+          </div>
+        </div>
+        <br/><hr>
+        </div>
+        <!--
+        ruang komen
+        <div class="column">
+          <form method='post'>
+            Comments:<br/>
+            <textarea name='comments'id='comments'>
+            </textarea><br/>
+            <input type='hidden'name='articleid'
+            id='articleid'value='<? echo $_GET["id";?>'/>
+            <input type='submit'value='Hantar'/>	
+          </div>
+        -->
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Type Here"></textarea>
+          </div>
+        </div>
+       
+        <div class="column">
+         <div class="field is-grouped">
+            <div class="control">
+             <button class="button is-link">Submit</button>
+            </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+         </div>
+        </div>
+        
+    </center>
+   </div>
+
+    <div class="box">
+      <center>
+        <div>
+          <marquee behavior="alternate" direction="left">
+            <font color="black" size="12">
+              <h1>Kelebihan Membela Kucing</h1>
+            </font>
+          </marquee>
+        </div><br><br>
+        <div>
+
+         <img src="catgif.gif" height="150px" width="200px">
+
+        </div>
+      </center>
+    </div>
+
+
+   <br><br><br><br><br><br><br /><br /><br><br><br><br><br><br>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Jenis-Jenis Kucing Di Malaysia</strong> by <a href="https://linktr.ee/Helorocino">Adi Akmal Faris</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
